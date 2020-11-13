@@ -26,14 +26,40 @@ body
         height:180px;
         object-fit: cover;
     }
-
+/* Section */
+.menus
+{
+    background-color: #f6f6f6;
+}
+/* Footer */
+footer
+{
+    background-color: #353535;
+}
+.fa-utensils, .fa-hands-helping
+{
+    color:white;
+}
+footer p
+{
+    color: white;
+}
+footer h3
+{
+    font-family: 'Shrikhand';
+    color:white;
+}
 /* Mobile */
-@media all and (max-width:375px)
+@media all and (min-width:375px) and (max-width:500px)
 {
     .image img
     {
         width:300px;
         height:180px;
         object-fit: cover;
+    }
+    footer
+    {
+        padding:20px;
     }
 }
