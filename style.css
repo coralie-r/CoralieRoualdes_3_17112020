@@ -70,6 +70,46 @@ body
 {
     background-color: #f6f6f6;
 }
+/* Search */
+.search_location
+{
+    background-color: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    box-shadow: inset 0px 3px 8px 0px #d5d5d5;
+}
+.fa-map-marker-alt
+{
+    color:#353535
+}
+.input
+{
+    border:none;
+    background-color: #eaeaea;
+    font-family: 'Roboto';
+    margin-left: 10px;
+    color:#353535
+}
+.search
+{
+    height: 350px;
+}
+.gradient_button
+{
+    width: 218px;
+    height: 50px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gradient_button p
+{
+    color:white;
+}
 /* Fonctionnement */
 .warper_align
 {
