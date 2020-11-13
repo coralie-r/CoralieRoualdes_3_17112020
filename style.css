@@ -53,12 +53,23 @@ body
 {
     font-weight:900;
 }
+/* Header */
+.logo_header
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.logo_header img
+{
+    width:163px;
+}
 /* Section */
 .menus, .search
 {
     background-color: #f6f6f6;
 }
-
 /* Fonctionnement */
 .warper_align
 {
@@ -69,6 +80,7 @@ body
     height: 72px;
     background-color: #f6f6f6;
     border-radius: 25px;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.1);
 }
 .op_center
 {
