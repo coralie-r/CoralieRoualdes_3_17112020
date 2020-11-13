@@ -51,11 +51,6 @@ body
 {
     color:#008766
 }
-.choose, .compose, .taste
-{
-    display:flex;
-    align-items: center;
-}
 .card
 {   background-color: white;
     padding: 5px;
