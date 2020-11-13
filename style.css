@@ -1,1 +1,39 @@
 /* Css */
+
+/* Polices */
+@font-face
+{
+    font-family: 'Shrikhand';
+    src: url('polices/Shrikhand-Regular.ttf');
+    font-family: 'Roboto';
+    src: url('polices/Roboto-Regular.ttf');
+}
+
+/* Styles généraux */
+body
+{
+    margin: 0;
+    font-family: 'Roboto';
+}
+.body_warper
+{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.image img
+    {
+        width:300px;
+        height:180px;
+        object-fit: cover;
+    }
+
+/* Mobile */
+@media all and (max-width:375px)
+{
+    .image img
+    {
+        width:300px;
+        height:180px;
+        object-fit: cover;
+    }
+}
