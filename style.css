@@ -22,14 +22,47 @@ body
 }
 .image img
     {
-        width:300px;
+        width:335px;
         height:180px;
         object-fit: cover;
     }
+.number
+{
+    background-color: #9356DC;
+}
+.fa-mobile-alt, .fa-list-ul
+{
+    color:#7e7e7e;
+}
+.fa-store
+{
+    color: #9356DC;
+}
 /* Section */
-.menus
+.menus, .search
 {
     background-color: #f6f6f6;
+}
+.new
+{
+    background-color: #99E2D0;
+}
+.new p
+{
+    color:#008766
+}
+.choose, .compose, .taste
+{
+    display:flex;
+    align-items: center;
+}
+.card
+{   background-color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    max-width: 335px;
 }
 /* Footer */
 footer
