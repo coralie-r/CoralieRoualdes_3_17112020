@@ -34,6 +34,10 @@ h1
 {
     color:#353535;
 }
+.fa-heart
+{
+    font-size:20px;
+}
 /* Header */
 .header_pages
 {
@@ -54,6 +58,7 @@ h1
 .section_pages
 {
     background-color: #f6f6f6;
+    padding-bottom: 80px;
 }
 .upper
 {
@@ -114,6 +119,16 @@ h1
 .small_text
 {
     margin: 5px 0 15px 15px;
+}
+.box_h1
+{
+    position: relative;
+}
+.heart 
+{
+    position:relative;
+    top: -48px;
+    right: -290px;
 }
 /* Footer */
 footer
