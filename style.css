@@ -17,7 +17,7 @@ body
 }
 .body_warper
 {
-    max-width: 1600px;
+    max-width: 768px;
     margin: 0 auto;
 }
 .image img
@@ -225,6 +225,7 @@ a
 footer
 {
     background-color: #353535;
+    padding:20px;
 }
 .fa-utensils, .fa-hands-helping
 {
@@ -249,16 +250,3 @@ footer h3
     margin:0;
 }
 /* Mobile */
-@media all and (min-width:375px) and (max-width:500px)
-{
-    .image img
-    {
-        width:300px;
-        height:180px;
-        object-fit: cover;
-    }
-    footer
-    {
-        padding:20px;
-    }
-}
