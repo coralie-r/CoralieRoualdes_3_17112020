@@ -1,0 +1,104 @@
+/* Css */
+
+/* Polices */
+@font-face
+{
+    font-family: 'Shrikhand';
+    src: url('polices/Shrikhand-Regular.ttf');
+    font-family: 'Roboto';
+    src: url('polices/Roboto-Regular.ttf');
+}
+
+/* Styles généraux */
+body
+{
+    margin: 0;
+    font-family: 'Roboto';
+}
+.body_warper
+{
+    max-width: 768px;
+    margin: 0 auto;
+}
+h1
+{
+    font-family: 'Shrikhand';
+}
+.restaurant_image img
+{
+    width:375px;
+    height:260px;
+
+}
+.fa-arrow-left
+{
+    color:#353535;
+}
+/* Header */
+.header_pages
+{
+    margin: 20px 0 12px 20px;
+    display: flex;
+    align-items: center;
+}
+.logo_header img
+{
+    width:163px;
+}
+.logo_header
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Section */
+.section_pages
+{
+    background-color: #f6f6f6;
+}
+.upper
+{
+    text-transform: uppercase;
+    border-bottom: solid #99e2d0;
+}
+.gradient_button
+{
+    width: 218px;
+    height: 50px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gradient_button p
+{
+    color:white;
+}
+/* Footer */
+footer
+{
+    background-color: #353535;
+    padding:20px;
+}
+.fa-utensils, .fa-hands-helping
+{
+    color:white;
+}
+.fa-utensils
+{
+    margin-right: 15px;
+}
+.fa-hands-helping
+{
+    margin-right: 9px;
+}
+footer p
+{
+    color: white;
+}
+footer h3
+{
+    font-family: 'Shrikhand';
+    color:white;
+    margin:0;
+}
