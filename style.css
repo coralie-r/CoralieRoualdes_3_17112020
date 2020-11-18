@@ -15,7 +15,7 @@ body
     margin: 0;
     font-family: 'Roboto';
 }
-.body_warper
+.body_wrapper
 {
     max-width: 768px;
     margin: 0 auto;
@@ -131,7 +131,7 @@ a
     align-items: center;
 }
 /* Fonctionnement */
-.warper_align
+.wrapper_align
 {
     display: flex;
     align-items: center;
@@ -193,7 +193,7 @@ a
     max-width: 335px;
     position: relative;
 }
-.card_warper
+.card_wrapper
 {
     display: flex;
     flex-direction: column;
