@@ -15,18 +15,13 @@ body
     margin: 0;
     font-family: 'Roboto';
 }
-.body_wrapper
-{
-    max-width: 768px;
-    margin: 0 auto;
-}
 .image img
-    {
-        width:335px;
-        height:180px;
-        object-fit: cover;
-        border-radius: 20px 20px 0 0;
-    }
+{
+    width:335px;
+    height:180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
 .number
 {
     background-color: #9356DC;
@@ -57,6 +52,7 @@ body
 a
 {
     text-decoration:none;
+    color: black;
 }
 /* Header */
 .logo_header
@@ -163,7 +159,17 @@ a
 }
 .operation
 {
-    padding: 50px 0 40px 0;
+    padding: 30px 0 40px 0;
+}
+.op_wrapper
+{
+    padding:20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.op_wrapper h2
+{
+    display: inline-block;
 }
 /* Restaurants */
 .new
@@ -201,7 +207,17 @@ a
 }
 .menus
 {
-    padding: 60px 0 40px 0;
+    padding: 40px 0 40px 0;
+}
+.restaurants
+{
+    padding: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.restaurants h2
+{
+    display: inline-block;
 }
 .card h3 
 {
@@ -210,6 +226,7 @@ a
 .card .town
 {
     margin: 5px 0 15px 15px;
+    padding-bottom:10px;
 }
 .fa-heart
 {
