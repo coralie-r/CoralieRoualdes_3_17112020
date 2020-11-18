@@ -213,13 +213,29 @@ a
 }
 .fa-heart
 {
-    font-size: 20px;
+    font-size: 21px;
 }
 .heart 
 {
     position: absolute;
     top: 205px;
     right: 30px;
+}
+.heart:hover
+{
+    display:hidden;
+}
+.color_hover:hover
+{
+    cursor: pointer;
+    background: -webkit-linear-gradient(#FF79DA, #9356DC);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.color_hover
+{
+    display: hidden;
 }
 /* Footer */
 footer
