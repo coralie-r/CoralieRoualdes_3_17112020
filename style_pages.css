@@ -24,6 +24,10 @@ h1
 {
     font-family: 'Shrikhand';
 }
+a
+{
+    text-decoration: none;
+}
 .restaurant_image img
 {
     width:375px;
@@ -37,6 +41,10 @@ h1
 .fa-heart
 {
     font-size:20px;
+}
+.fa-check
+{
+    color:#99e2d0;
 }
 /* Header */
 .header_pages
@@ -123,12 +131,13 @@ h1
 .box_h1
 {
     position: relative;
+    display:flex;
+    align-items: center;
 }
 .heart 
 {
     position:relative;
-    top: -48px;
-    right: -290px;
+    right: -140px;
 }
 /* Footer */
 footer
@@ -157,4 +166,8 @@ footer h3
     font-family: 'Shrikhand';
     color:white;
     margin:0;
+}
+footer a
+{
+    color:white;
 }
