@@ -232,13 +232,13 @@ a
 {
     font-size: 21px;
 }
-.heart .far, .heart .fas 
+.heart .fa-heart
 {
     position: absolute;
     top: 205px;
     right: 30px;
 }
-.heart .fas:hover .heart .far
+.heart .fas
 {
     opacity: 0;
 }
@@ -251,9 +251,9 @@ a
     -webkit-text-fill-color: transparent;
     opacity: 1;
 }
-.heart .fas
+.heart .fas:hover .heart .fa-heart
 {
-    opacity: 0;
+    display:none;
 }
 /* Footer */
 footer
