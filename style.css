@@ -237,10 +237,11 @@ a
     position: absolute;
     top: 205px;
     right: 30px;
+    opacity: 1;
 }
-.heart:hover
+.heart:hover:after
 {
-    display:hidden;
+    opacity:0;
 }
 .color_hover:hover
 {
@@ -249,10 +250,11 @@ a
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    opacity: 1;
 }
 .color_hover
 {
-    display: hidden;
+    opacity: 0;
 }
 /* Footer */
 footer
