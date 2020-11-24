@@ -91,6 +91,13 @@ a
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.gradient_button:hover
+{
+    cursor: pointer;
+    background: linear-gradient(#F87ceb, #b866ed);
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.4);
 }
 .gradient_button p
 {
