@@ -232,18 +232,17 @@ a
 {
     font-size: 21px;
 }
-.heart 
+.heart .far, .heart .fas 
 {
     position: absolute;
     top: 205px;
     right: 30px;
-    opacity: 1;
 }
-.heart:hover:after
+.heart .fas:hover .heart .far
 {
-    opacity:0;
+    opacity: 0;
 }
-.color_hover:hover
+.heart .fas:hover
 {
     cursor: pointer;
     background: -webkit-linear-gradient(#FF79DA, #9356DC);
@@ -252,7 +251,7 @@ a
     -webkit-text-fill-color: transparent;
     opacity: 1;
 }
-.color_hover
+.heart .fas
 {
     opacity: 0;
 }
