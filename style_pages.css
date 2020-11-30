@@ -176,14 +176,15 @@ a
 .round_check
 {
     background-color: #99e2d0;
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 72px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 25px;
-    right: 25px;
+    top: 0px;
+    right: -2px;
+    border-radius: 0 20px 20px 0;
 }
 /* Footer */
 footer
