@@ -270,7 +270,7 @@ a
 .heart:hover >.far
 {
     cursor: pointer;
-    animation: disparition 800ms linear both;
+    animation: disparition 600ms linear both;
 }
 @keyframes disparition
 {
