@@ -176,7 +176,7 @@ a
 .round_check
 {
     background-color: #99e2d0;
-    width: 70px;
+    width: 0;
     height: 72px;
     display: flex;
     justify-content: center;
@@ -185,8 +185,9 @@ a
     top: 0px;
     right: -2px;
     border-radius: 0 20px 20px 0;
-    opacity: 0;
+    transition: width 1s linear;
 }
+
 /* Footer */
 footer
 {
@@ -229,6 +230,10 @@ footer a
 {
     cursor: pointer;
 }
+.card_menu:hover .round_check
+{
+    width: 70px;
+}
 .card_menu 
 {
     animation: fadein 3s ease-in-out;
@@ -240,3 +245,4 @@ footer a
     to {
         opacity:1;
     }
+}

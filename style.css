@@ -249,19 +249,39 @@ a
 {
     opacity: 0;
 }
-.heart .fas:hover
+.heart:hover >.fas
 {
     cursor: pointer;
     background: -webkit-linear-gradient(#FF79DA, #9356DC);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    opacity: 1;
+    animation: opacity 800ms linear both;
 }
-.heart .fas:hover .heart .far
+@keyframes opacity
 {
-    opacity: 0;
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
 }
+.heart:hover >.far
+{
+    cursor: pointer;
+    animation: disparition 800ms linear both;
+}
+@keyframes disparition
+{
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+
 /* Footer */
 footer
 {
