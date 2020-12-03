@@ -103,6 +103,11 @@ a
 {
     color:white;
 }
+.menu 
+{
+    display:flex;
+    flex-direction: column;
+}
 .card_menu
 {   background-color: white;
     margin-bottom: 20px;

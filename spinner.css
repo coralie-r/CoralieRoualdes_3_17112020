@@ -1,24 +1,19 @@
-@keyframes spinner {
-    0% {
-      transform: translate3d(-50%, -50%, 0) rotate(0deg);
-    }
-    100% {
-      transform: translate3d(-50%, -50%, 0) rotate(360deg);
-    }
+.loader {
+  border: 10px solid #FF79DA;
+  border-top: 10px solid #9356DC;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear;
+}
+
+@keyframes spin {
+  0% {  
+    transform: rotate(0deg);
+    opacity: 1;
   }
-  .spin::before {
-    animation: 800ms linear 3 spinner;
-    animation-play-state: inherit;
-    border: solid 5px #b5b5b5;
-    border-bottom-color: #99e2d0;
-    border-radius: 50%;
-    content: "";
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate3d(-50%, -50%, 0);
-    will-change: transform;
+  100% { 
+    transform: rotate(360deg);
+    opacity: 0; 
   }
-  
+}
