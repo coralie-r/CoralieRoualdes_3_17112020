@@ -34,6 +34,11 @@ a
     height:260px;
     object-fit: cover;
     margin-bottom: -40px;
+    background-color: white;
+}
+.restaurant_image
+{
+    background-color: white;
 }
 .fa-arrow-left
 {
@@ -152,7 +157,6 @@ a
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background-color: #f6f6f6;
     border-radius: 30px;
     padding: 12px;
@@ -177,6 +181,7 @@ a
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
 }
 .round_check
 {
@@ -227,10 +232,30 @@ footer a
 }
 
 /* animations*/
-.white_circle:hover
+.card_menu:hover .white_circle
 {
-    transform: rotate(1,5turn);
+   animation: opacity 1s linear;
 }
+@keyframes  opacity{
+    0% {
+        opacity: 0;
+        transform: rotate(-90deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+
 .card_menu:hover
 {
     cursor: pointer;
