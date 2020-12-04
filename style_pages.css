@@ -31,7 +31,6 @@ a
 .restaurant_image img
 {
     width:375px;
-    height:260px;
     object-fit: cover;
     margin-bottom: -40px;
     background-color: white;
@@ -274,5 +273,19 @@ footer a
     }
     to {
         opacity:1;
+    }
+}
+@media all and (min-width:376px)
+{
+    .restaurant_image img
+    {
+        width:100%;
+    }
+}
+@media all and (max-width:375px)
+{
+    .restaurant_image img
+    {
+        height: 260px;
     }
 }
