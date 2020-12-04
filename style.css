@@ -331,3 +331,28 @@ footer a
         margin: 0 150px;
     }
 }
+@media all and (min-width:1440px)
+{
+    .image img
+    {
+        width:300px;
+    }
+    .card
+    {
+        max-width: 300px;
+        margin:20px;
+    }
+    .card_wrapper
+    {
+        flex-wrap: nowrap;
+        margin:0;
+    }
+
+}
+@media all and (min-width:1101px) and (max-width:1439px)
+{
+    .restaurants
+    {
+        margin: 0 170px;
+    }
+}

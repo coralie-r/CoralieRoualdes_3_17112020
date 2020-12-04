@@ -150,6 +150,9 @@ a
 .small_text
 {
     margin: 5px 0 15px 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .box_h1
 {
