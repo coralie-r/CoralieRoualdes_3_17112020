@@ -314,4 +314,20 @@ footer a
 {
     color:white;
 }
-/* Mobile */
+/* Responsive */
+@media all and (min-width:1100px)
+{
+    .op_center
+    {
+        flex-direction: row;
+    }
+    .card_wrapper 
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 150px;
+    }
+}
