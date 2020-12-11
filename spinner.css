@@ -14,11 +14,11 @@
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 0;
+  z-index: -1;
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: spinner_bg 3s cubic-bezier(.68,.34,1,.44);
+  animation: spinner_bg 2s cubic-bezier(.68,.34,1,.44);
   opacity: 0;
 }
 @keyframes spin {
@@ -40,12 +40,12 @@
     opacity: 1;
     z-index: 1;
   }
-  90% {
+  95% {
     opacity: 0; 
-    z-index: 0;
+    z-index: -1;
   }
   100% {
     opacity: 0; 
-    z-index: 0;
+    z-index: -1;
   }
 }

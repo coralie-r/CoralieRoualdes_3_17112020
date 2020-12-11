@@ -115,6 +115,10 @@ a
     align-items: flex-end;
     width: 100%;
 }
+.menu p
+{
+    margin-right:25px;
+}
 .card_menu
 {   background-color: white;
     margin-bottom: 20px;
@@ -267,14 +271,20 @@ footer a
 }
 .card_menu 
 {
-    animation: fadein 3s ease-in-out;
+    animation: fadein 1.5s ease-in-out;
+    overflow: hidden;
 }
 @keyframes fadein {
-    from {
+    0% {
+        opacity:0;
+        margin-top:-300px;
+    }
+    65% {
         opacity:0;
     }
-    to {
-        opacity:1;
+    100% {
+        opacity: 1;
+        margin-top:0px;
     }
 }
 @media all and (min-width:376px)
@@ -289,5 +299,29 @@ footer a
     .restaurant_image img
     {
         height: 260px;
+    }
+}
+@media all and (min-width:1024px)
+{
+    .body_wrapper 
+    {
+        max-width: 100%;
+    }
+    .menu_wrapper
+    {
+        display:flex;
+        justify-content: center;
+    }
+    .restaurant_image img 
+    {
+        height: 450px;
+    }
+    .starters, .dishes, .desserts
+    {
+        margin:10px;
+    }
+    .section_pages
+    {
+        padding-bottom: 60px;
     }
 }
