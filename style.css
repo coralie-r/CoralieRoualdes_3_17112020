@@ -85,11 +85,11 @@ a
 {
     color:#353535
 }
-.input
+.search_location p
 {
-    border:none;
     background-color: #eaeaea;
     font-family: 'Roboto';
+    font-weight: bolder;
     margin-left: 10px;
     color:#353535
 }
@@ -354,5 +354,16 @@ footer a
     .restaurants
     {
         margin: 0 170px;
+    }
+    .card_wrapper
+    {
+        justify-content: center;
+    }
+}
+@media all and (max-width:375px)
+{
+    .wrapper_align, .card, .image img
+    {
+        width:300px;
     }
 }
