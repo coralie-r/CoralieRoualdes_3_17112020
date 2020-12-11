@@ -335,4 +335,9 @@ footer a
     {
         padding:0 25%;
     }
+    .heart 
+    {
+        position: relative;
+        right: -95px;
+    }
 }
