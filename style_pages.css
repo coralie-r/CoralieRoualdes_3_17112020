@@ -104,11 +104,10 @@ a
 }
 .menu 
 {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
     width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .menu p
 {
@@ -125,6 +124,9 @@ a
 .bold
 {
     font-weight:bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .small_text
 {
@@ -135,6 +137,9 @@ a
     color:#353535;
     font-weight:bold;
     font-size:15px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
 }
 .card_wrapper
 {
