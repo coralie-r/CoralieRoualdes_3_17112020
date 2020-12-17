@@ -373,5 +373,6 @@ footer a
     .heart 
     {
         right: -90px;
+        position: relative;
     }
 }
