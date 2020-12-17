@@ -198,7 +198,7 @@ a
     justify-content: center;
     align-items: center;
     border-radius: 0 20px 20px 0;
-    transition: width 1s linear;
+    transition: width 500ms linear;
     transform-origin: right center;
 }
 
@@ -238,7 +238,7 @@ footer a
 /* animations*/
 .card_menu:hover .white_circle
 {
-   animation: opacity 2s linear;
+   animation: opacity 500ms linear;
    opacity: 1;
 }
 @keyframes  opacity{
