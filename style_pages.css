@@ -238,7 +238,7 @@ footer a
 /* animations*/
 .card_menu:hover .white_circle
 {
-   animation: opacity 1s linear;
+   animation: opacity 2s linear;
    opacity: 1;
 }
 @keyframes  opacity{
